@@ -1,0 +1,15 @@
+@import url("./styles/redtop.css");
+@import url("./styles/editor.css");
+@import url("./styles/phones.css");
+@import url("./styles/laptop.css");
+@import url("./styles/blackdown.css");
+@import url("./styles/screen320.css");
+@import url("./styles/screen990.css");
+
+
+.mobile{
+    display: none;
+}
+
+
+

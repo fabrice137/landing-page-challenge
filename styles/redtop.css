@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body, 
+html{
+    overflow-x: hidden;
+    background: hsl(0, 26%, 96%);
+}
+
+.redtop{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url(../images/bg-pattern-intro.svg);
+    background-position: center;
+    background-size: 240%;
+    padding: 4rem 10rem;
+    border-bottom-left-radius: 6rem;
+    background-repeat: no-repeat;
+    background-color: hsl(353, 100%, 62%);
+}
+
+.redtop .navbar{
+    display: flex;
+    align-items: center;
+}
+
+.redtop .navbar .site-nav{
+    flex: 1;
+    margin-left: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.redtop .navbar .site-nav li{
+    margin-right: 1.5rem;
+    list-style: none;
+    position: relative;
+}
+
+.redtop .navbar .site-nav li a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    transition: 1s;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.redtop .navbar .site-nav li a:hover{
+    text-decoration: underline;
+}
+
+.redtop .navbar .site-nav li img{
+    margin-left: .5rem;
+    transition: .5s;
+}
+
+.redtop .navbar .site-nav li:hover img{
+    transform: rotate(-180deg);
+}
+
+.redtop .navbar .site-nav li .menu-list{
+    display: none;
+    transition: .5s;
+    z-index: 10;
+}
+
+.redtop .navbar .site-nav li:hover .menu-list{
+    display: block;
+}
+
+.redtop .navbar .site-nav li .menu-list ul{
+    position: absolute;
+    margin-top: .2rem;
+    margin-left: -2rem;
+    background: hsl(0, 0%, 100%);
+    padding: 1.5rem;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.4);
+}
+
+.redtop .navbar .site-nav li .menu-list ul li{
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.redtop .navbar .site-nav li .menu-list ul li:last-child{
+    margin-bottom: 0;
+}
+
+.redtop .navbar .site-nav li .menu-list ul li a{
+    color: hsl(240, 0%, 56%);
+    transition: .5s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.redtop .navbar .site-nav li .menu-list ul li a:hover{
+    color: hsl(0, 0%, 5%);
+}
+
+.redtop .navbar .login-signup{
+    display: flex;
+    align-items: center;
+}
+
+.redtop .navbar .login-signup li{
+    margin-left: 2rem;
+    list-style: none;
+}
+
+.redtop .navbar .login-signup li a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 0.9rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.redtop .navbar .login-signup li .signup{
+    padding: .8rem 2.5rem;
+    background: hsl(0, 0%, 100%);
+    color: hsl(356, 100%, 66%);
+    border: none;
+    border-radius: 2rem;
+    transition: .5s;
+}
+
+.redtop .navbar .login-signup li .signup:hover{
+    background: hsl(355, 100%, 74%);
+    color: hsl(0, 0%, 100%);
+}
+
+.redtop .navbar #mobilemenu{
+    display: none;
+}
+
+.redtop .redtop-modern{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.redtop .redtop-modern h1{
+    font-size: 3.5rem;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 1rem;
+    font-family: 'Overpass', sans-serif;
+}
+
+.redtop .redtop-modern p{
+    font-size: 1.2rem;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+
+.redtop .redtop-modern .start-learn-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redtop .redtop-modern .start-learn-btns li{
+    list-style: none;
+    margin: 0 .5rem;
+}
+
+.redtop .redtop-modern .start-learn-btns li a{
+    text-decoration: none;
+    padding: .7rem 1.5rem;
+    cursor: pointer;
+    font-size: .9rem;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.redtop .redtop-modern .start-learn-btns li .start{
+    background: hsl(0, 0%, 100%);
+    color: hsl(353, 100%, 62%);
+    border-radius: 2rem;
+    transition: .5s;
+}
+
+.redtop .redtop-modern .start-learn-btns li .start:hover{
+    background: hsl(355, 100%, 74%);
+    color: hsl(0, 0%, 100%);
+}
+
+.redtop .redtop-modern .start-learn-btns li .learn{
+    background: transparent;
+    color: hsl(0, 0%, 100%);
+    border-radius: 2rem;
+    transition: .5s;
+    border: 1px solid hsl(0, 0%, 100%);
+}
+
+.redtop .redtop-modern .start-learn-btns li .learn:hover{
+    background: hsl(0, 0%, 100%);
+    color: hsl(355, 100%, 74%);
+}
+
+.mobilenav{
+    display: none;
+}

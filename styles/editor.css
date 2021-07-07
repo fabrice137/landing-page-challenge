@@ -1,0 +1,58 @@
+
+.editor{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    padding: 10rem 0 3rem 10rem;
+    background: hsl(0, 26%, 96%);
+    z-index: 2;
+}
+
+.editor h2{
+    font-size: 2.5rem;
+    color: hsl(208, 49%, 24%);
+    text-align: center;
+    margin-bottom: -4rem;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+}
+
+.editor .container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.editor .container .container-left{
+    flex-basis: 50%;
+}
+
+.editor .container .container-left h3{
+    font-size: 1.8rem;
+    color: hsl(208, 49%, 24%);
+    margin-bottom: 2.5rem;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+}
+
+.editor .container .container-left p{
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+}
+
+.editor .container .container-right{
+    position: relative;
+    flex-basis: 50%;
+}
+
+.editor .container .container-right .desktop-editor{
+    width: 150%;
+    position: relative;
+}
+
+.editor .container .container-right .mobile-editor{
+    display: none;
+}

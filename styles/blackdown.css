@@ -1,0 +1,41 @@
+
+footer{
+    width: 100%;
+    padding: 4rem 10rem 6rem;
+    background: hsl(240, 10%, 16%);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border-top-right-radius: 6rem;
+}
+
+footer .bottom-link{
+    flex-basis: 20%;
+}
+
+footer .bottom-link h6{
+    font-size: 1rem;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+footer .bottom-link ul li{
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+footer .bottom-link ul li a{
+    text-decoration: none;
+    color: hsl(240, 2%, 79%);
+    font-size: 1rem;
+    transition: .5s;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+
+footer .bottom-link ul li a:hover{
+    text-decoration: underline;
+}
