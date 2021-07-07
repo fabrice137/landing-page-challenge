@@ -10,11 +10,8 @@
 
 .editor h2{
     font-size: 2.5rem;
-    color: hsl(208, 49%, 24%);
     text-align: center;
     margin-bottom: -4rem;
-    font-family: 'Overpass', sans-serif;
-    font-weight: 700;
 }
 
 .editor .container{
@@ -30,16 +27,12 @@
 
 .editor .container .container-left h3{
     font-size: 1.8rem;
-    color: hsl(208, 49%, 24%);
     margin-bottom: 2.5rem;
-    font-family: 'Overpass', sans-serif;
-    font-weight: 700;
 }
 
 .editor .container .container-left p{
     font-size: 1.2rem;
     margin-bottom: 3rem;
-    font-family: 'Overpass', sans-serif;
     font-weight: 300;
 }
 
